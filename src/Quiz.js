@@ -12,7 +12,6 @@ class Quiz extends Component {
         return (
             <div className="QuizQuestion">
                 {this.state.instruction_text}
-                {/* {this.state.quiz_position[0].instruction_text} */}
             </div>
         )
     }
